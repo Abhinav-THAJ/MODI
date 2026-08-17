@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── BJP Saffron-First Palette — India Flag, No Navy Dominance ── */
+
+  /* Primary: BJP / India saffron */
+  --color-saffron:  #FF9933;
+  /* BJP deep burnt saffron — CTAs, hero accents */
+  --color-bjp:      #FF6200;
+  /* India Green (flag bottom stripe) */
+  --color-green:    #138808;
+  /* Dark green for hover states */
+  --color-dkgreen:  #0A5206;
+  /* Dark base — deep warm charcoal, no blue */
+  --color-dark:     #130800;
+  /* Slightly lighter dark for cards on dark bg */
+  --color-darklt:   #1F0C00;
+  /* Warm white — India flag white */
+  --color-paper:    #FFF8F0;
+  /* Muted gold for dividers, nodes */
+  --color-gold:     #D4881E;
+  /* Deep ink — body text */
+  --color-ink:      #1A0500;
+  /* BJP lotus pink accent */
+  --color-lotus:    #E8405A;
+
+  /* Semantic aliases kept for backward compat */
+  --color-navy:     #130800;
+
+  --color-background: var(--color-paper);
+  --color-foreground: var(--color-ink);
+
+  --font-serif: var(--font-fraunces);
+  --font-sans:  var(--font-inter);
+  --font-mono:  var(--font-jetbrains-mono);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    background: linear-gradient(180deg, rgba(255,153,51,0.08) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,0.08) 100%);
+    background-attachment: fixed;
+    color: #1A1A1A;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  :root {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+  * { box-sizing: border-box; }
 }

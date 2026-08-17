@@ -1,0 +1,182 @@
+{
+  "biography": [
+    {
+      "year": "1950",
+      "title": "Early Life in Vadnagar",
+      "description": "Born on September 17, 1950, in Vadnagar, Gujarat, to Damodardas Mulchand Modi and Hiraba Modi. Helped his father at their tea stall at the Vadnagar railway station."
+    },
+    {
+      "year": "1967",
+      "title": "Spiritual Journey",
+      "description": "Left home to travel across India, visiting various ashrams and seeking spiritual and personal growth."
+    },
+    {
+      "year": "1972",
+      "title": "Joining the RSS",
+      "description": "Officially became a full-time pracharak in the Rashtriya Swayamsevak Sangh (RSS). Actively participated in the 1974 Navnirman movement and during the Emergency (1975–1977)."
+    },
+    {
+      "year": "1983",
+      "title": "Higher Education",
+      "description": "Completed his Master of Arts in Political Science from Gujarat University."
+    },
+    {
+      "year": "1987",
+      "title": "Entry into the BJP",
+      "description": "Transitioned to mainstream politics by joining the Bharatiya Janata Party. Quickly rose to become the General Secretary of the BJP's Gujarat unit."
+    }
+  ],
+  "politicalJourney": [
+    {
+      "year": "2001",
+      "title": "Chief Minister of Gujarat",
+      "description": "Sworn in as the Chief Minister of Gujarat. His tenure focused on strengthening infrastructure and the state economy. This period included the 2002 Gujarat riots, after which a Supreme Court-appointed SIT cleared him of complicity.",
+      "term": "Gujarat CM"
+    },
+    {
+      "year": "2014",
+      "title": "14th Prime Minister of India",
+      "description": "Elected as the Prime Minister of India with a historic mandate, beginning his first term with a focus on financial inclusion and infrastructure.",
+      "term": "Term 1"
+    },
+    {
+      "year": "2019",
+      "title": "Re-election to Second Term",
+      "description": "Returned to power with an even larger majority. Focus expanded to sweeping welfare programs, digitalization, and global standing.",
+      "term": "Term 2"
+    },
+    {
+      "year": "2024",
+      "title": "Historic Third Term",
+      "description": "Secured a third consecutive term as Prime Minister, focusing on the vision of a 'Viksit Bharat' (Developed India) by 2047.",
+      "term": "Term 3"
+    }
+  ],
+  "schemes": [
+    {
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "launchDate": "2014-08-28",
+      "focusArea": "Financial Inclusion",
+      "beneficiaries": "58+ Crore",
+      "category": "Welfare"
+    },
+    {
+      "name": "Swachh Bharat Mission (SBM)",
+      "launchDate": "2014-10-02",
+      "focusArea": "Sanitation",
+      "beneficiaries": "Universal",
+      "category": "Health"
+    },
+    {
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "launchDate": "2016-05-01",
+      "focusArea": "Clean Cooking Fuel",
+      "beneficiaries": "10.55+ Crore",
+      "category": "Welfare"
+    },
+    {
+      "name": "Ayushman Bharat (PM-JAY)",
+      "launchDate": "2018-09-23",
+      "focusArea": "Health Insurance",
+      "beneficiaries": "10.82+ Crore",
+      "category": "Health"
+    },
+    {
+      "name": "PM-KISAN",
+      "launchDate": "2019-02-24",
+      "focusArea": "Income Support for Farmers",
+      "beneficiaries": "Millions",
+      "category": "Agriculture"
+    },
+    {
+      "name": "PM Awas Yojana (PMAY)",
+      "launchDate": "2015-06-25",
+      "focusArea": "Housing for All",
+      "beneficiaries": "4+ Crore Houses",
+      "category": "Housing"
+    }
+  ],
+  "achievements": [
+    {
+      "category": "Welfare",
+      "headline": "Financial Inclusion",
+      "description": "Over 58 crore bank accounts opened under PMJDY, bringing the unbanked into the formal financial system.",
+      "stat": "58M+"
+    },
+    {
+      "category": "Health",
+      "headline": "Universal Health Coverage",
+      "description": "Ayushman Bharat provides ₹5 lakh health coverage, recently expanded to all senior citizens aged 70 and above.",
+      "stat": "10.8M+"
+    },
+    {
+      "category": "Digital",
+      "headline": "Digital Public Infrastructure",
+      "description": "The JAM Trinity (Jan Dhan, Aadhaar, Mobile) ensures transparent direct benefit transfers, powering the massive success of UPI.",
+      "stat": "100x Growth"
+    },
+    {
+      "category": "Infrastructure",
+      "headline": "PM GatiShakti & Connectivity",
+      "description": "Massive modernization of railways with Vande Bharat and expansive highway network development.",
+      "stat": "21x Coaches"
+    }
+  ],
+  "upcomingProjects": [
+    {
+      "title": "Shakti Ki Sapt Dhara",
+      "status": "Announced",
+      "date": "2026-08",
+      "description": "A seven-pillar reform framework driving growth in manufacturing, tech, connectivity, and defence.",
+      "category": "Economy"
+    },
+    {
+      "title": "National AI Skilling",
+      "status": "Ongoing",
+      "date": "2026-08",
+      "description": "Initiative to train one crore youth in Artificial Intelligence over the next year.",
+      "category": "Digital"
+    },
+    {
+      "title": "Semiconductor Mission",
+      "status": "Ongoing",
+      "date": "2026",
+      "description": "Development of 7-8 new semiconductor manufacturing facilities becoming operational soon.",
+      "category": "Manufacturing"
+    },
+    {
+      "title": "Mumbai–Ahmedabad HSR",
+      "status": "Ongoing",
+      "date": "2026",
+      "description": "Construction of India's first high-speed rail corridor.",
+      "category": "Infrastructure"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Order of King Abdulaziz",
+      "country": "Saudi Arabia",
+      "year": 2016
+    },
+    {
+      "name": "Order of Zayed",
+      "country": "UAE",
+      "year": 2019
+    },
+    {
+      "name": "Order of St. Andrew the Apostle",
+      "country": "Russia",
+      "year": 2019
+    },
+    {
+      "name": "Grand Cross of the Legion of Honour",
+      "country": "France",
+      "year": 2023
+    },
+    {
+      "name": "Champions of the Earth",
+      "country": "UN",
+      "year": 2018
+    }
+  ]
+}
