@@ -5,16 +5,16 @@ import Image from "next/image";
 import { useMotionConfig } from "@/hooks/useMotionConfig";
 
 const awards = [
-  { name: "Order of King Abdulaziz",         country: "Saudi Arabia",  year: 2016, flag: "🇸🇦", accent: "#138808" },
-  { name: "Order of Zayed",                  country: "UAE",           year: 2019, flag: "🇦🇪", accent: "#FF9933" },
-  { name: "Order of St. Andrew the Apostle", country: "Russia",        year: 2019, flag: "🇷🇺", accent: "#FF6200" },
-  { name: "King Hamad Order of Renaissance", country: "Bahrain",       year: 2019, flag: "🇧🇭", accent: "#D4881E" },
-  { name: "Order of the Druk Gyalpo",        country: "Bhutan",        year: 2021, flag: "🇧🇹", accent: "#FF9933" },
-  { name: "Grand Cross of Legion of Honour", country: "France",        year: 2023, flag: "🇫🇷", accent: "#138808" },
-  { name: "Order of the Nile",               country: "Egypt",         year: 2023, flag: "🇪🇬", accent: "#FF6200" },
-  { name: "Champions of the Earth",          country: "United Nations", year: 2018, flag: "🇺🇳", accent: "#138808" },
-  { name: "Legion of Merit",                 country: "USA",           year: 2020, flag: "🇺🇸", accent: "#FF9933" },
-  { name: "Order of Izzuddin",               country: "Maldives",      year: 2019, flag: "🇲🇻", accent: "#D4881E" },
+  { name: "Order of King Abdulaziz",         country: "Saudi Arabia",  year: 2016, code: "sa", accent: "#138808" },
+  { name: "Order of Zayed",                  country: "UAE",           year: 2019, code: "ae", accent: "#FF9933" },
+  { name: "Order of St. Andrew the Apostle", country: "Russia",        year: 2019, code: "ru", accent: "#FF6200" },
+  { name: "King Hamad Order of Renaissance", country: "Bahrain",       year: 2019, code: "bh", accent: "#D4881E" },
+  { name: "Order of the Druk Gyalpo",        country: "Bhutan",        year: 2021, code: "bt", accent: "#FF9933" },
+  { name: "Grand Cross of Legion of Honour", country: "France",        year: 2023, code: "fr", accent: "#138808" },
+  { name: "Order of the Nile",               country: "Egypt",         year: 2023, code: "eg", accent: "#FF6200" },
+  { name: "Champions of the Earth",          country: "United Nations", year: 2018, code: "un", accent: "#138808" },
+  { name: "Legion of Merit",                 country: "USA",           year: 2020, code: "us", accent: "#FF9933" },
+  { name: "Order of Izzuddin",               country: "Maldives",      year: 2019, code: "mv", accent: "#D4881E" },
 ];
 
 export function AwardsSection() {
@@ -92,9 +92,10 @@ export function AwardsSection() {
               <div className="relative z-10 flex flex-col h-full justify-between gap-12">
                 <div className="flex items-start justify-between">
                   <div
-                    className="text-5xl transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110"
+                    className="relative w-12 h-9 rounded-sm shadow-sm overflow-hidden border border-gray-200 transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110"
                   >
-                    {award.flag}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={`https://flagcdn.com/w80/${award.code}.png`} alt={`${award.country} flag`} className="object-cover w-full h-full" />
                   </div>
                   <span
                     className="px-4 py-1.5 rounded-full font-mono text-xs font-bold uppercase tracking-widest border shadow-sm transition-colors duration-300 group-hover:text-white"

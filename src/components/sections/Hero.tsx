@@ -64,14 +64,16 @@ export function Hero() {
             </span>
           </motion.h1>
 
-          <motion.p className="text-lg md:text-xl max-w-xl leading-relaxed mb-12 font-light"
-            style={{ color: "rgba(26,5,0,0.65)" }}
-            initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
+          <motion.div 
+            className="mb-12 p-6 rounded-2xl bg-gradient-to-r from-orange-50 to-transparent border-l-4 border-orange-500 max-w-xl"
+            initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
           >
-            From a tea stall in Vadnagar to three consecutive terms as leader of the world's largest democracy — a definitive record of ambition, governance and vision.
-          </motion.p>
+            <p className="text-lg md:text-xl font-serif text-gray-800 leading-snug italic">
+              "MODI MANTRA is the sweetness of <strong className="text-orange-600 font-bold">Good Governance</strong>. <strong className="text-green-700 font-bold">Transformative Development</strong>. <strong className="text-orange-800 font-bold">Visionary Leadership</strong>. This is our motto."
+            </p>
+          </motion.div>
 
           {/* Quick Facts Strip */}
           <motion.div className="grid grid-cols-2 md:grid-cols-4 rounded-2xl overflow-hidden border shadow-lg"

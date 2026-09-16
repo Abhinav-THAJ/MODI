@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -12,13 +13,10 @@ export function Footer() {
           
           {/* Column 1: Brand */}
           <div className="lg:pr-8">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-full flex items-center justify-center"
-                style={{ background: "linear-gradient(135deg, #FF9933, #FF6200)" }}
-              >
-                <span className="text-white font-black text-sm">MM</span>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-20 h-20 relative flex items-center justify-center rounded-full bg-white overflow-hidden border shadow-sm" style={{ borderColor: "rgba(255,153,51,0.2)" }}>
+                <Image src="/logo.png" alt="Modi Mantra Logo" fill className="object-contain p-1.5" />
               </div>
-              <span className="font-serif text-xl" style={{ color: "#1A0500" }}>Modi Mantra</span>
             </div>
             <p className="text-sm leading-relaxed mb-6" style={{ color: "rgba(26,5,0,0.6)" }}>
               An independent informational resource documenting the journey, achievements, and vision of the 14th Prime Minister of India.
@@ -67,6 +65,16 @@ export function Footer() {
               <li>
                 <a href="https://www.facebook.com/narendramodi" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6200] transition-colors inline-flex items-center gap-1">
                   Facebook <ExternalLink size={12} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/modijimantra/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6200] transition-colors inline-flex items-center gap-1">
+                  Modi Mantra Facebook <ExternalLink size={12} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/modi_mantra_namo_modi/?hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF6200] transition-colors inline-flex items-center gap-1">
+                  Modi Mantra Instagram <ExternalLink size={12} />
                 </a>
               </li>
             </ul>

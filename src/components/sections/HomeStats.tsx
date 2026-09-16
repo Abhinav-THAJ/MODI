@@ -63,8 +63,8 @@ export function HomeStats() {
           <span className="font-mono text-xs tracking-[0.3em] uppercase font-bold block mb-4" style={{ color: "#FF6200" }}>
             — Core Philosophy —
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl max-w-2xl leading-tight" style={{ color: "#1A0500" }}>
-            The Pillars of <br/><span style={{ color: "#FF6200" }}>New India</span>
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl max-w-4xl leading-tight" style={{ color: "#1A0500" }}>
+            The Pillars of <span style={{ color: "#FF6200" }}>New India</span>
           </h2>
         </motion.div>
         

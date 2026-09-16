@@ -1,4 +1,5 @@
 import { Hero } from "@/components/sections/Hero";
+import { HomeLeadership } from "@/components/sections/HomeLeadership";
 import { HomeVision } from "@/components/sections/HomeVision";
 import { HomeStats } from "@/components/sections/HomeStats";
 import { HomeHighlights } from "@/components/sections/HomeHighlights";
@@ -11,6 +12,7 @@ export default function Home() {
       <HomeVision />
       <HomeStats />
       <HomeHighlights />
+      <HomeLeadership />
       <HomeConnect />
     </>
   );
